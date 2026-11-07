@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output directories
+voice_work/
+meme_inbox/
+dyvid_*/
+tmp*/
+screenshots/
+cover_cache/
+
+# Secrets (user's own)
+.env
+auth_cookies.json
+auth_webprotect.json
+storage_state.json
+capture_api.json
+notification_cache.json
+*.bak.*
+
+# Playwright browsers (installed separately)
+playwright_browsers/
+
+# SDK
+sdk_js/
+
+# Data files
+*.jsonl
+*.log
+mood.json
+sticker_memory.json
+meme_collected.json
+share_targets.json
+conversations.json*
+persona.txt
+hobbies.txt
+
+# Node
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
